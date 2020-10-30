@@ -1,9 +1,0 @@
-README.md
-setup.py
-src/__init__.py
-src/demo.py
-test/test.py
-tkitDemo.egg-info/PKG-INFO
-tkitDemo.egg-info/SOURCES.txt
-tkitDemo.egg-info/dependency_links.txt
-tkitDemo.egg-info/top_level.txt
