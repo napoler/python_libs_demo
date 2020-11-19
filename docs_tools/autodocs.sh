@@ -28,6 +28,7 @@ sphinx-apidoc -o ./source/res ../src
 #HTML 页面保存在 ../docs 目录。
 sphinx-build -b html ./source ../docs 
 
+cp ./.nojekyll ../docs
 
 # 推送命令
 cd ../
