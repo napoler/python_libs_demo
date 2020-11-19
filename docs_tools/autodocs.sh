@@ -11,7 +11,9 @@ pip install sphinx_rtd_theme
 
 # https://github.com/lotharschulz/sphinx-pages
 pip install sphinx-autobuild 
-
+#markdown基础支持
+#recommonmark的PyPi说明：https://pypi.org/project/sphinx-markdown-tables/
+pip install recommonmark
 
 #
 #清理之前生成的文档
