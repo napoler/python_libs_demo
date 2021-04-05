@@ -3,7 +3,10 @@ from setuptools import find_packages, setup
 from os import path as os_path
 import time
 this_directory = os_path.abspath(os_path.dirname(__file__))
+"""帮助[https://www.notion.so/6bade2c6a5f4479f82a4e67eafcebb3a]
 
+ 
+    """
 # 读取文件内容
 def read_file(filename):
     with open(os_path.join(this_directory, filename), encoding='utf-8') as f:
@@ -37,7 +40,7 @@ setup(
 
 
     # ],
-    packages=['src'])
+    packages=['Demo'])
 
 """
 pip freeze > requirements.txt
