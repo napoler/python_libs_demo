@@ -11,7 +11,7 @@ sh upload.sh
 https://www.terrychan.org/python_libs_demo/
 
 
-
+更多开发说明参考这里 https://python-packaging-zh.readthedocs.io/zh_CN/latest/minimal.html
 
 ##  MANIFEST.in 文件
 
