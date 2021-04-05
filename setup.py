@@ -5,6 +5,8 @@ import time
 this_directory = os_path.abspath(os_path.dirname(__file__))
 """帮助[https://www.notion.so/6bade2c6a5f4479f82a4e67eafcebb3a]
 
+上传到anaconda
+https://docs.anaconda.com/anacondaorg/user-guide/tasks/work-with-packages/
  
     """
 # 读取文件内容
@@ -26,8 +28,8 @@ def read_requirements(filename):
 
 long_description=read_file("README.md")
 setup(
-    name='tkitDemo', #修改包名字
-    version='0.0.0.1',
+    name='tkitDemo', #修改包名字-
+    version='0.0.0.2                                 ',
     description='Terry toolkit tkitDemo',
     author='Terry Chan',
     author_email='napoler2008@gmail.com',

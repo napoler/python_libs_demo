@@ -13,6 +13,12 @@ https://www.terrychan.org/python_libs_demo/
 
 更多开发说明参考这里 https://python-packaging-zh.readthedocs.io/zh_CN/latest/minimal.html
 
+
+## 提交到anaconda
+
+https://docs.anaconda.com/anacondaorg/user-guide/tasks/work-with-packages/
+
+
 ##  MANIFEST.in 文件
 
  MANIFEST.in 文件，文件内容就是需要包含在分发包中的文件。一个 MANIFEST.in 文件如下：
