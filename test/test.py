@@ -5,8 +5,8 @@ import sys
 # 切换到上级目录
 sys.path.append("../")
 # 引入本地库
-import src
+import Demo
 
-Demo =src.Demo()
+Demo =Demo.Demo()
 Demo.fun()
 
