@@ -14,6 +14,10 @@ https://www.terrychan.org/python_libs_demo/
 更多开发说明参考这里 https://python-packaging-zh.readthedocs.io/zh_CN/latest/minimal.html
 
 
+## 如何向PyPi(pip)提交模块
+
+https://www.notion.so/terrychanorg/PyPi-pip-b371898f30ec4f268688edebab8d7ba1
+
 ## 提交到anaconda
 
 https://docs.anaconda.com/anacondaorg/user-guide/tasks/work-with-packages/
