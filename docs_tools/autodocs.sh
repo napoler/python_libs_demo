@@ -10,6 +10,7 @@ pip install -U Sphinx
 #pip install sphinx_rtd_theme
 #https://sphinx-book-theme.readthedocs.io/en/latest/index.html
 pip install sphinx-book-theme
+pip install sphinx_rtd_theme
 
 
 # https://github.com/lotharschulz/sphinx-pages
@@ -18,11 +19,13 @@ pip install sphinx-autobuild
 #recommonmark的PyPi说明：https://pypi.org/project/sphinx-markdown-tables/
 pip install recommonmark
 
+
+rm -rf ../docs 
 #
 #清理之前生成的文档
 rm -rf ./source/res/
-#扫描目录
-sphinx-apidoc -o ./source/res ../src
+#扫描目录 tkitAutoTokenizerPosition
+sphinx-apidoc -o ./source/res ../tkitAutoTokenizerPosition
 
 #编译成为html
 #make html
