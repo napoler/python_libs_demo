@@ -24,8 +24,8 @@ rm -rf ../docs
 #
 #清理之前生成的文档
 rm -rf ./source/res/
-#扫描目录 tkitAutoTokenizerPosition
-sphinx-apidoc -o ./source/res ../tkitAutoTokenizerPosition
+#扫描目录 Demo
+sphinx-apidoc -o ./source/res ../Demo
 
 #编译成为html
 #make html
