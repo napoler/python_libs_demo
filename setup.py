@@ -6,7 +6,7 @@ import time
 
 # 这里是基本的信息
 
-name='Demo'#修改包名字-
+name='tkitDemo'#修改包名字-
 version='0.0.0.2'+str(time.time())[:8]
 description='Terry toolkit Demo,'
 author='Terry Chan'
