@@ -40,6 +40,8 @@ jobs:
         with:
           user: __token__
           password: ${{ secrets.PYPI_API_TOKEN }}
+          run: |
+            bash upload.sh
           
           
       # Runs a set of commands using the runners shell
