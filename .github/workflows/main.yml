@@ -36,6 +36,8 @@ jobs:
           pip install twine
           python3 setup.py sdist
           python setup.py bdist_wheel --universal 
+          pwd
+          ls
         
         
       - name: Publish package to PyPI
