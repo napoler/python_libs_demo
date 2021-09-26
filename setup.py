@@ -3,7 +3,20 @@ from setuptools import find_packages, setup
 from os import path as os_path
 import time
 
-from config import *
+
+# 这里是基本的信息
+
+name='Demo'#修改包名字-
+version='0.0.0.2'+str(time.time())[:8]
+description='Terry toolkit Demo,'
+author='Terry Chan'
+author_email='napoler2008@gmail.com'
+url='http://docs.terrychan.org/tkit-lr-pytorch/'
+
+copyright = '2021, Terry Chan'
+language = 'zh_cn'
+
+
 this_directory = os_path.abspath(os_path.dirname(__file__))
 """帮助[https://www.notion.so/6bade2c6a5f4479f82a4e67eafcebb3a]
 
@@ -39,15 +52,18 @@ setup(
     author=author,
     author_email=author_email,
     url=url,
-    install_requires=read_requirements('requirements.txt'),  # 指定需要安装的依赖
+    # install_requires=read_requirements('requirements.txt'),  # 指定需要安装的依赖
     long_description=long_description,
     long_description_content_type="text/markdown",
+    #依赖文件
     # install_requires=[
     #     # 'beautifulsoup4==4.7.1',
 
 
     # ],
-    packages=['Demo'])
+    packages=['Demo'],  # 扫描的目录
+    nclude_package_data=True,  # 打包包含静态文件标识
+    )
 
 """
 pip freeze > requirements.txt
