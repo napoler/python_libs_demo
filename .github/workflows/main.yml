@@ -38,10 +38,15 @@ jobs:
       - name: Publish package to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
+          run: |
+            pip install twine
+            python3 setup.py sdist
+            python setup.py bdist_wheel --universal 
           user: __token__
           password: ${{ secrets.PYPI_API_TOKEN }}
-          run: |
-            bash upload.sh
+
+
+            
           
           
       # Runs a set of commands using the runners shell
