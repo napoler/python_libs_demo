@@ -5,7 +5,7 @@
 pip install pipreqs
 pip install twine
 #遇到已经存在 强制覆盖 requirements.txt
-pipreqs ./ --force
+# pipreqs ./ --force
 
 rm -rf dist
 #打包

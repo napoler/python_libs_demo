@@ -6,6 +6,31 @@
 - docs_tools/autodocs.sh  # 需要修改sphinx-apidoc -o ./source/res ../Demo这句 用来修改成扫描的目录
 - config.py
 
+# 自动发布pypi
+
+
+获取 pypitonken
+
+https://pypi.org/manage/account/
+
+添加
+
+https://github.com/napoler/python_libs_demo/settings/secrets/actions
+
+> PIPY 
+
+
+修改
+
+> .github/workflows/upload-to-pip.yml
+
+
+
+
+
+
+
+
 
 自动执行上传
 
