@@ -36,6 +36,11 @@ sphinx-build -b html ./source ../docs
 
 cp ./.nojekyll ../docs
 
+
+pwd
+
+ls ../docs
+
 # # 推送命令
 # cd ../
 # git add .
