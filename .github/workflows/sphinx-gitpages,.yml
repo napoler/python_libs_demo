@@ -14,6 +14,7 @@ jobs:
           bash autodocs.sh
           pwd
           ls ../docs
+          cd ../
       
       
     - name: Push changes
